@@ -1,0 +1,97 @@
+.container{
+  background-color: red;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.boxComment{
+  border-color: black;
+  border: solid;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  
+  margin: 2em 25% 5em 25%;
+}
+
+.boxComment a{
+  margin: 6%;
+}
+
+.boxComment button{
+  border-color: black;
+  margin: 2%;
+  width: 20%;
+  height: 10%;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  margin-left: 60%;
+  
+}
+
+.navbar button {
+  margin: 2%;
+  border-color: black;
+  border-width: 9%;
+  width: 50%;
+  height: 50%;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+}
+
+
+
+.profile{
+  flex-flow: column;
+  background-color: white;
+  display: flex;
+}
+
+.profileB1{
+  border: solid;
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.profileB1 img{
+  margin-left: 35%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.profileB{
+  display: flex;
+  flex-flow: row;
+  flex-direction: row-reverse;
+}
+
+.profileB button{
+  border-color: black;
+  border: solid;
+  width: 9%;
+  height: 3%;
+  margin: 4%;
+}
+
+
+.Biographie{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 18px;
+}
+.Biographie a{
+  flex: 0 0 50%;
+  margin-bottom: 5%;
+}
+
