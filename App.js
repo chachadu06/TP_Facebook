@@ -15,7 +15,7 @@ class NavBar extends React.Component {
 class LastComment extends React.Component {
     render() {
         return(
-            <div className="boxComment">
+            <div className="Comment">
                 <a>{this.props.lastComment}</a>
                 <button onClick={this.props.onClick}> 👍 C'est super ! </button>
             </div>
@@ -121,14 +121,14 @@ class Profile extends React.Component {
 
     render() {
       return(
-          <div className="profileB1" style={{backgroundColor: this.state.bgColor}}>
+          <div className="profil1" style={{backgroundColor: this.state.bgColor}}>
               <img src={this.props.photo} />
               <div className="Biographie">
                   <a>{this.props.prenom}</a>
                   <a>{this.props.nom}</a>
                   <a>{this.props.date_naissance}</a>
               </div>
-              <div className="profileB">
+              <div className="profil2">
                   <button id="style"
                           onClick={this.handleClick}>
                       Change style
